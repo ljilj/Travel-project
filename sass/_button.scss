@@ -1,0 +1,24 @@
+.c-btn {
+    display: block;
+    margin: 5rem auto 0;
+    font-size: 0.875rem;
+    padding-inline-start: 2rem;
+    padding-inline-end: 2rem;
+    padding-block-start: 0.8rem;
+    padding-block-end: 0.8rem;
+    color: var(--color-white);
+    border-radius: 1rem;
+    border: none;
+}
+
+.c-btn--success-gradient {
+    background-image: linear-gradient(to right, #1c616e 0%, #0e7b8f  51%, #0290ab  100%);
+    background-image: -webkit-linear-gradient(to right, #1c616e 0%, #0e7b8f  51%, #0290ab  100%);
+    background-image: -ms-linear-gradient(to right, #1c616e 0%, #0e7b8f  51%, #0290ab  100%);
+
+    &:hover {
+        background-image: linear-gradient(to right, #0290ab 0%, #0e7b8f  51%,  #1c616e  100%);
+        background-image: -webkit-linear-gradient(to right, #0290ab 0%, #0e7b8f  51%,  #1c616e  100%);
+        background-image: -ms-linear-gradient(to right, #0290ab 0%, #0e7b8f  51%,  #1c616e  100%);
+    }
+}

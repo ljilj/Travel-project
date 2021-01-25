@@ -1,0 +1,31 @@
+.u-container {
+    max-width: 75rem;
+    margin: 0 auto;
+}
+
+.u-text-uppercase {
+    text-transform: uppercase;
+}
+
+.u-text-center {
+    text-align: center;
+}
+
+.u-my {
+    margin-block-start: 4rem;
+    margin-block-end: 4rem;
+}
+
+.u-px {
+    padding-inline-start: 2rem;
+    padding-inline-end: 2rem;
+}
+
+.u-skewY {
+    -ms-transform: skewY(4deg);
+    transform: skewY(4deg);
+}
+
+.u-color--success {
+    color: var(--color-success);
+}

@@ -1,0 +1,15 @@
+/*** Header ***/ 
+.c-header-section {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    overflow: hidden;
+    background-color: var(--color-success);
+    padding: 1rem 1.5rem;
+}
+
+
+/*** Footer ***/ 
+.c-footer-section {
+    background-color: var(--color--success-dark);
+}
